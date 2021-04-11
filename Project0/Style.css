@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.header{
+/*    background-color: aqua;*/
+    width: 100%;
+    line-height:6vh;
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px 12px;
+    color:rgb(65, 66, 66);
+}
+a:hover{
+    color:lightslategray;
+    text-decoration: underline;
+}
+.logo:hover{
+    box-shadow: 0px 0px 20px gray;
+    cursor: pointer;
+}
+
+.login{
+    padding: 10px 25px;
+    color:white;
+    background-color: rgb(0, 64, 255);
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.login:hover{
+    box-shadow: 0px 0px 2px rgb(0, 128, 255);
+    cursor: pointer;
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.logo1>.img{
+padding-top: 4%;
+}
+.search{
+    width:640px;
+    margin: 23px auto;
+    border:1px solid rgb(217, 222, 222);
+    border-radius: 35px;
+}
+.search:hover{
+     box-shadow: 0px 0px 3px rgb(167, 171, 171);
+}
+.search-bar{
+    width: 550px;
+    padding-top:20px; 
+    font-size:18px;
+    outline: none;
+    border:0px;
+    padding-top: 15px;
+    margin-bottom:10px;
+}
+.search-icon{
+    position: relative;
+    height: 15px;
+    margin-top:10px;
+    width: 15px;
+    margin-left:20px; 
+}
+.btn-container{
+    margin-top:2%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-btn{
+    font-size: 15;
+    padding: 0px 30px;
+    height: 40px;
+    border:none;
+    color: rgb(45, 46, 46);
+    background:#f5f5f5;
+    border-radius: 5px;
+    margin:0px 10px;
+}
+
+.search-btn:hover{
+    color:rgb(37, 37, 37);
+     box-shadow: 0px 0px 3px rgb(167, 171, 171);
+}
+
+.links{
+    text-align: center;
+    margin-top:2%;
+    display: flex;
+    justify-content: center;
+    
+}
+.lang{
+    text-decoration: none;
+    padding: 0px 12px;
+    color:blue;
+}
+.footer{ 
+    font-size: 15px;
+    position: relative;
+    height: 60px;
+    margin-top: 250px;    
+    background: rgb(237, 237, 237);
+}
+.footer > .left{
+    position: absolute;
+    left: 0px;
+    text-decoration: none;
+    padding: 24px 12px;
+
+}.footer > .right{
+    position: absolute;
+    right: 0px;
+    text-decoration: none;
+    padding: 24px 12px;
+}
